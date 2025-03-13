@@ -1,53 +1,143 @@
-/* Basic Reset */
+/* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Body */
 body {
-    font-family: 'Arial', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007bff;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.hero img {
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 /* Navigation Bar */
 .navbar {
-    padding: 1rem 0;
+  padding: 15px 0;
 }
 
-/* Hero Section */
-#hero {
-    background: url('images/hero-bg.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-right: 20px;
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+  text-decoration: underline;
+}
+
+/* Section Headers */
+h2 {
+  color: #007bff;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
 }
 
 /* About Section */
-#about {
-    background-color: #f8f9fa;
+.about-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#about img {
-    max-width: 100%;
-    height: auto;
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-top: 20px;
 }
 
-/* Projects Section */
-#projects .card {
-    margin-bottom: 20px;
+/* Skills Section */
+.skills-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#projects .card img {
-    height: 200px;
-    object-fit: cover;
+.skills-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-section ul li {
+  font-size: 1.2rem;
+  padding: 8px 0;
+}
+
+/* Education Section */
+.education-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-top: 20px;
 }
 
 /* Contact Section */
-#contact form .form-control {
-    border-radius: 0.5rem;
+.contact-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
-    background-color: #343a40;
-    color: white;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
