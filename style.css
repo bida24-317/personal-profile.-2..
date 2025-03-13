@@ -1,0 +1,53 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 1rem 0;
+}
+
+/* Hero Section */
+#hero {
+    background: url('images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+/* About Section */
+#about {
+    background-color: #f8f9fa;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Projects Section */
+#projects .card {
+    margin-bottom: 20px;
+}
+
+#projects .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+#contact form .form-control {
+    border-radius: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}
