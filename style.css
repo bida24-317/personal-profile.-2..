@@ -1,143 +1,39 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body */
+/* Custom Styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f7fa;
-  color: #333;
-  line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
-/* Hero Section */
-.hero {
-  background-color: pink;
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
+header {
+    padding: 60px 0;
+    background-color: #007bff;
+    color: white;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 20px;
-}
-
-.hero img {
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-/* Navigation Bar */
 .navbar {
-  padding: 15px 0;
+    margin-bottom: 20px;
 }
 
-.navbar-brand {
-  font-size: 1.8rem;
-  font-weight: 700;
+.container {
+    padding: 20px;
 }
 
-.navbar-nav .nav-link {
-  font-size: 1.1rem;
-  margin-right: 20px;
-  color: pink;
+h1, h2 {
+    color: #007bff;
 }
 
-.navbar-nav .nav-link:hover {
-  color: pink;
-  text-decoration: underline;
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
 }
 
-/* Section Headers */
-h2 {
-  color: pink;
-  font-size: 2.2rem;
-  margin-bottom: 20px;
+.list-group-item {
+    transition: background-color 0.3s ease;
 }
 
-/* About Section */
-.about-section {
-  background-color: #fff;
-  padding: 40px 20px;
-  margin-bottom: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.about-section p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-top: 20px;
-}
-
-/* Skills Section */
-.skills-section {
-  background-color: #fff;
-  padding: 40px 20px;
-  margin-bottom: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.skills-section ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.skills-section ul li {
-  font-size: 1.2rem;
-  padding: 8px 0;
-}
-
-/* Education Section */
-.education-section {
-  background-color: #fff;
-  padding: 40px 20px;
-  margin-bottom: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.education-section p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-top: 20px;
-}
-
-/* Contact Section */
-.contact-section {
-  background-color: #fff;
-  padding: 40px 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact-section a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.contact-section a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+.list-group-item:hover {
+    background-color: #007bff;
+    color: white;
 }
