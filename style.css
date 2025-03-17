@@ -68,5 +68,40 @@ body {
   }
   .hero p {
     font-size: 1.2rem;
-  }
+    
+  }/* Contact Form Section */
+.contact-form {
+  background-color: #f8bbd0;
+  padding: 60px 0;
+}
+
+.contact-form h2 {
+  color: #e83e8c;
+  margin-bottom: 30px;
+}
+
+.contact-form .form-control {
+  border: 1px solid #e83e8c;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 5px rgba(232, 62, 140, 0.5);
+}
+
+.contact-form .btn-primary {
+  background-color: #e83e8c;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #ff6b6b;
+}
 }
