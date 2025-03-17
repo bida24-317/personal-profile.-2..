@@ -34,14 +34,14 @@ h1, h2 {
 }
 
 .list-group-item:hover {
-    background-color: #007bff;
+    background-color: pink;
     color: white;
 }
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: #333;
-    color: #fff;
+    background-color: pink;
+    color: pink;
 }
 
 .dark-mode .navbar {
@@ -51,20 +51,20 @@ body.dark-mode {
 
 .dark-mode .navbar-brand,
 .dark-mode .nav-link {
-    color: #fff !important;
+    color: pink;
 }
 
 .dark-mode .list-group-item {
-    background-color: #444;
-    color: #fff;
+    background-color: pink;
+    color: pink;
 }
 
 .dark-mode .card {
-    background-color: #444;
-    color: #fff;
+    background-color: pink;
+    color: pink;
 }
 
 .dark-mode .btn-dark {
-    background-color: #555;
-    border-color: #666;
+    background-color: pink;
+    border-color: pink;
 }
