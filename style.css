@@ -1,18 +1,32 @@
 /* Default (Light Mode) Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: pink;
-    color: pink;
+    background-color: #f8f8f8;  /* Light background for better contrast with pink */
+    color: #333;  /* Dark text color for better readability */
 }
 
 header {
     padding: 60px 0;
-    background-color: pink;
+    background-color: #ff66b2;  /* Lighter pink for the header */
     color: white;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow for header */
 }
 
 .navbar {
     margin-bottom: 20px;
+    background-color: #ff66b2;  /* Same light pink as header */
+    border-bottom: 2px solid #e6007e;  /* Darker pink for the border */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #e6007e;  /* Darker pink when hovering */
 }
 
 .container {
@@ -20,51 +34,121 @@ header {
 }
 
 h1, h2 {
-    color: pink;
+    color: #ff66b2;  /* Light pink color for headings */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .profile-img {
     width: 150px;
     height: 150px;
-    border: 3px solid white;
+    border: 5px solid #ff66b2;  /* Pink border for profile image */
+    border-radius: 50%;  /* Circular profile image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+    margin: 0 auto;  /* Center image */
+    display: block;
 }
 
 .list-group-item {
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #fff;  /* White background for list items */
+    color: #333;  /* Dark text color for readability */
+    border: 1px solid #ffccff;  /* Light pink border */
+    border-radius: 5px;  /* Rounded corners */
+    margin-bottom: 10px;
 }
 
 .list-group-item:hover {
-    background-color: pink;
+    background-color: #ff66b2;  /* Light pink background on hover */
     color: white;
+    cursor: pointer;  /* Indicate interactivity */
+}
+
+.card {
+    background-color: #fff;  /* White background for cards */
+    color: #333;  /* Dark text color */
+    border: 1px solid #ffccff;  /* Light pink border */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-dark {
+    background-color: #e6007e;  /* Darker pink for buttons */
+    border-color: #e6007e;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-dark:hover {
+    background-color: #ff66b2;  /* Lighter pink on hover */
+    border-color: #ff66b2;
 }
 
 /* Dark Mode Styles */
 body.dark-mode {
-    background-color: pink;
-    color: pink;
+    background-color: #2e2e2e;  /* Dark background for dark mode */
+    color: #ddd;  /* Light text color for contrast */
+}
+
+.dark-mode header {
+    background-color: #ff66b2;  /* Light pink header in dark mode */
+    color: white;
 }
 
 .dark-mode .navbar {
-    background-color: #222;
+    background-color: #222;  /* Dark background for the navbar */
     border-bottom: 1px solid #444;
 }
 
 .dark-mode .navbar-brand,
 .dark-mode .nav-link {
-    color: pink;
+    color: #ff66b2;  /* Light pink color for links in dark mode */
 }
 
 .dark-mode .list-group-item {
-    background-color: pink;
-    color: pink;
+    background-color: #333;  /* Dark background for list items in dark mode */
+    color: #ddd;  /* Light text color */
+    border: 1px solid #444;  /* Darker border for contrast */
+}
+
+.dark-mode .list-group-item:hover {
+    background-color: #ff66b2;  /* Light pink on hover */
+    color: white;
 }
 
 .dark-mode .card {
-    background-color: pink;
-    color: pink;
+    background-color: #444;  /* Dark background for cards */
+    color: #ddd;  /* Light text color */
+    border: 1px solid #555;  /* Darker border */
 }
 
 .dark-mode .btn-dark {
-    background-color: pink;
-    border-color: pink;
+    background-color: #ff66b2;  /* Light pink for buttons */
+    border-color: #ff66b2;
+}
+
+.dark-mode .btn-dark:hover {
+    background-color: #e6007e;  /* Darker pink on hover */
+    border-color: #e6007e;
+}
+
+/* Dark Mode Toggle Button Styles */
+#dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff66b2; /* Pink background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#dark-mode-toggle:hover {
+    background-color: #e6007e;  /* Darker pink on hover */
 }
