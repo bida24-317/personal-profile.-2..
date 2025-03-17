@@ -102,6 +102,41 @@ body {
 }
 
 .contact-form .btn-primary:hover {
-  background-color: #ff6b6b;
+  background-color: #ff6b6b;/* Skills Section */
+.skills {
+  background-color: #f8bbd0;
+  padding: 60px 0;
+}
+
+.skill-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+  color: #e83e8c;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-size: 1.5rem;
+  color: #e83e8c;
+  margin-bottom: 15px;
+}
+
+.skill-description {
+  font-size: 1rem;
+  color: #555;
+}
+  
 }
 }
